@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object" xmlns:ns5="collector">
+    <o:RootObject Id="o1">
+        <a:SessionID>00000000-0000-0000-0000-000000000000</a:SessionID>
+    </o:RootObject>
+</Model>

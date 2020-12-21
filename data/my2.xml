@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<a>
+    <bList>
+        <bList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="bInteger">
+            <value>1</value>
+        </bList>
+        <bList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="bFloat">
+            <value>100.123</value>
+        </bList>
+    </bList>
+</a>
