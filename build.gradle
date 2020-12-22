@@ -1,8 +1,9 @@
 plugins {
     id 'java'
+    id 'maven'
 }
 
-group 'com.tlw'
+group 'top.xskr'
 version '1.0.0'
 
 repositories {
@@ -16,6 +17,16 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-test {
-    useJUnitPlatform()
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri("http://172.16.0.183:8081/repository/maven-releases/")){
+                authentication(userName: "admin", password: "admin123")
+            }
+        }
+    }
 }
+
+//test {
+//    useJUnitPlatform()
+//}
