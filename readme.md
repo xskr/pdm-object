@@ -39,6 +39,6 @@
 ## log
 
 - read PowerDesigner format
-- 引入Eclipse的xml持久化库解决xml标签定制化问题
-- 引入sun的注解解决xml节点命名空间转义问题
-- 实现读取所有pdm文件节点和属性
+- Introduce Eclipse's xml persistence library to solve the problem of xml tag customization
+- Introduce sun's annotation to solve the problem of escaping xml node namespace
+- Achieve reading all pdm file nodes and attributes
