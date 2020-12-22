@@ -1,6 +1,5 @@
 package com.xskr.pd.pdm;
 
-import com.xskr.pd.pdm.*;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
