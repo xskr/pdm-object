@@ -6,6 +6,9 @@ plugins {
 group 'top.xskr'
 version '1.0.1'
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 repositories {
     mavenCentral()
 }
@@ -17,16 +20,38 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: uri("http://172.16.0.183:8081/repository/maven-releases/")){
-                authentication(userName: "admin", password: "admin123")
-            }
-        }
-    }
-}
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: uri("http://172.16.0.183:8081/repository/maven-releases/")){
+//                authentication(userName: "admin", password: "admin123")
+//            }
+//        }
+//    }
+//}
 
+//publishing {
+//    publications {
+//        binary(MavenPublication) {
+//            from components.java
+//        }
+//        binaryAndSources(MavenPublication) {
+//            from components.java
+//            artifact sourcesJar
+//        }
+//    }
+//    repositories {
+//        // change URLs to point to your repos, e.g. http://my.org/repo
+//        maven {
+//            name = 'external'
+//            url = "$buildDir/repos/external"
+//        }
+//        maven {
+//            name = 'internal'
+//            url = "$buildDir/repos/internal"
+//        }
+//    }
+//}
 //test {
 //    useJUnitPlatform()
 //}
