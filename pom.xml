@@ -39,6 +39,16 @@
         </dependency>
     </dependencies>
 
+    <name>pdm-object</name>
+    <description>A java library to read powerDesigner pdm format.</description>
+    <url>https://github.com/xskr/pdm-object</url>
+
+    <organization>
+        <name>xskr</name>
+        <url>http://xskr.top/</url>
+    </organization>
+    <inceptionYear>2020</inceptionYear>
+
     <licenses>
         <license>
             <name>BSD 3-Clause</name>
