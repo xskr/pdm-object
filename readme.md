@@ -10,6 +10,23 @@
 - jdk8
 - gradle 4.10.3
 
+## import
+
+Detail: https://search.maven.org/artifact/top.xskr/pdm-object/1.0.1/jar
+
+- Apache Maven
+~~~xml
+<dependency>
+  <groupId>top.xskr</groupId>
+  <artifactId>pdm-object</artifactId>
+  <version>1.0.1</version>
+</dependency>
+~~~ 
+- Gradle Groovy DSL
+~~~gradle
+implementation 'top.xskr:pdm-object:1.0.1'
+~~~
+
 ## example
 
 ~~~java
@@ -42,7 +59,3 @@ public static void main(String[] args) throws JAXBException {
 - Introduce Eclipse's xml persistence library to solve the problem of xml tag customization
 - Introduce sun's annotation to solve the problem of escaping xml node namespace
 - Achieve reading all pdm file nodes and attributes
-
-# release
-
-        mvn clean deploy -P release
